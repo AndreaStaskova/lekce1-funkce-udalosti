@@ -18,7 +18,7 @@ function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
   console.log("Gratulace, právě jsi spustila tuto funkci!");
   let square = document.querySelector(".ctverecek");
-  square.innerHTML = "Gratulace, právě jsi spustila tuto funkci!";
+  square.textContent = "Gratulace, právě jsi spustila tuto funkci!";
   square.style.lineHeight = "30px";
   square.style.paddingTop = "30px";
 }
